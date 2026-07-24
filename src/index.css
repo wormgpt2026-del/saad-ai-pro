@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3f8fd;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #b9d7f0;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.tv-chart-box {
+  height: 720px !important;
+  min-height: 720px !important;
+  width: 100% !important;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+.tv-chart-box, .tv-chart-box * {
+  box-sizing: border-box;
+}
